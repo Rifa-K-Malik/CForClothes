@@ -1,0 +1,40 @@
+.cforclothes{
+    background-color: #E5E7E9;
+    width: 100%;
+    header{
+        // border: 2px solid white;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        .sidenav{
+            mat-icon{
+                font-size: 30px;
+            }
+        }
+        .logo{
+            margin: 0px 20px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+            .img{
+                img{
+                    height: 70px;
+                    border-radius: 50%;
+                }
+            }
+            .text{
+                margin-left: 10px;
+               span{
+                    font-size: 40px;
+                    font-weight: 700;
+                    font-style: italic;
+                    letter-spacing: 1px;
+               }     
+            }
+        }
+    }
+}
